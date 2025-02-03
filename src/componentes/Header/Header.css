@@ -61,10 +61,10 @@
   .header__search input {
     background: transparent;
     border: none;
-    padding: 0px 100px 0 12px;
+    padding: 0 100px 0 12px;
     color: #fff;
     text-overflow: ellipsis;
-    overflow:hidden;
+    overflow: hidden;
     white-space: nowrap;
     outline: none;
   }
