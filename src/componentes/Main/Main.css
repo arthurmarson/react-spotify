@@ -3,7 +3,7 @@
     padding-top: 8px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #121212;
+    background-color: #1b062c;
     max-width: 80vw;
     margin-left: 330px;
     margin-right: 15px;
@@ -49,12 +49,6 @@
     grid-gap: 16px;
     gap: 16px;
     margin-bottom: 16px;
-  
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
-    display: grid;
-    gap: 16px;
-    grid-gap: 32px;
-    margin: 0 auto;
   }
   
   .cards {

@@ -8,13 +8,13 @@
 }
 
 .sidebar__navigation{
-    background-color: #121212;
+    background-color: #1b062c;
     border-radius:8px;
     padding:16px 0 0 16px;
 }
 
 .logo{
-    background: #121212;
+    background: #1b062c;
     display:flex;
     border-radius:8px ;
     padding:16px 0 0 16px;
@@ -47,7 +47,7 @@
 
 .library{
     margin-top: 1em;
-    background-color: #121212;
+    background-color: #1b062c;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -94,7 +94,7 @@
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
+    background-color: #2b123f;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
