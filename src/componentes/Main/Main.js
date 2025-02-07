@@ -35,6 +35,7 @@ const playlists = [
     { img: Playlist15, title: "Música Latina" },
 ];
 
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 const Main = ({ searchTerm }) => {
     const [artists, setArtists] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -46,10 +47,14 @@ const Main = ({ searchTerm }) => {
         }
 
         setLoading(true);
-        fetch(`http://localhost:3001/artists?name_like=${searchTerm}`)
+        fetch(`${API_URL}/artists?name_like=${searchTerm}`)
             .then((response) => response.json())
             .then((data) => {
                 setArtists(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Houve um erro ao buscar os artistas", error);
                 setLoading(false);
             });
     }, [searchTerm]); // Dispara sempre que `searchTerm` mudar
