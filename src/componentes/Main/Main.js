@@ -35,7 +35,6 @@ const playlists = [
     { img: Playlist15, title: "Música Latina" },
 ];
 
-const API_URL = process.env.REACT_APP_API_URL;
 const Main = ({ searchTerm }) => {
     const [artists, setArtists] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -47,7 +46,7 @@ const Main = ({ searchTerm }) => {
         }
 
         setLoading(true);
-        fetch(`${API_URL}/artists?name_like=${searchTerm}`)
+        fetch(`https://react-spotify-snmx.onrender.com/artists?name_like=${searchTerm}`)
             .then((response) => response.json())
             .then((data) => {
                 setArtists(data);
@@ -57,7 +56,7 @@ const Main = ({ searchTerm }) => {
                 console.error("Houve um erro ao buscar os artistas", error);
                 setLoading(false);
             });
-    }, [searchTerm, API_URL]); // Dispara sempre que `searchTerm` mudar 
+    }, [searchTerm]); // Dispara sempre que `searchTerm` mudar 
 
     return (
         <div className="playlist-container">
