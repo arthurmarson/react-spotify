@@ -57,7 +57,7 @@ const Main = ({ searchTerm }) => {
                 console.error("Houve um erro ao buscar os artistas", error);
                 setLoading(false);
             });
-    }, [searchTerm]); // Dispara sempre que `searchTerm` mudar
+    }, [searchTerm, API_URL]); // Dispara sempre que `searchTerm` mudar
 
     return (
         <div className="playlist-container">
