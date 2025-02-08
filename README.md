@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# React Spotify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Deploy na Vercel](https://vercel.com/button)](https://react-spotify-arthurmarson.vercel.app/)
 
-## Available Scripts
+Um clone da interface do Spotify desenvolvido em React, integrado à uma API com dados de artistas para uma pesquisa interativa.
 
-In the project directory, you can run:
+![Preview](https://img.shields.io/badge/Status-Concluído-brightgreen) 
 
-### `npm start`
+## 🚀 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React Spotify é um projeto desenvolvido durante a Imersão Front-end da Alura, realizada entre 27/01/2025 e 07/02/2025. O projeto foi inicialmente criado utilizando apenas HTML, CSS e JavaScript puro (vanilla), sem o uso de frameworks, e posteriormente foi migrado para React para aproveitar as seguintes melhorias:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Componentização e gestão de estado modernizada
+- Adoção de React Router para navegação
+- Integração otimizada com uma API que simula o Spotify
+- Interface responsiva com Styled Components
 
-### `npm test`
+## 🔧 Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Spotify API](https://img.shields.io/badge/Spotify_API-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
+![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-### `npm run build`
+**Front-End:**
+- React 18
+- React Router 6
+- Styled Components
+- HTML5
+- CSS3
+- JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Back-End:**
+- Node.js
+- API Context
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Front-end:**  
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://react-spotify-arthurmarson.vercel.app/)
 
-### `npm run eject`
+**Back-end:**  
+[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://react-spotify-snmx.onrender.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎯 Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Interface inspirada no Spotify
+- Consumo de API para exibição de artistas
+- Pesquisa e listagem de artistas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📸 Capturas de Tela
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Home Page**
+![Home Page](https://github.com/user-attachments/assets/51fd16bc-a549-497c-a9de-cdc42b34f68b)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Pesquisa Ativa**
+![Pesquisa](https://github.com/user-attachments/assets/b7c8aaea-707c-45d0-9a07-0cc328b29992)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## ⚙️ Instalação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Instale as dependências:
+```bash
+git clone https://github.com/arthurmarson/react-spotify.git
+```
+2. Clone o repositório:
+```bash
+npm install
+```
+3. Configure as variáveis de ambiente (crie um .env baseado no .env.example)
 
-### Analyzing the Bundle Size
+4. Inicie o projeto:
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📩 Contato
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: arthurmarson2006@gmail.com
+- LinkedIn: https://www.linkedin.com/in/arthur-oliveira-marson/
+- GitHub: https://github.com/arthurmarson
