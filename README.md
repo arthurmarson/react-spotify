@@ -1,6 +1,6 @@
 # React Spotify
 
-[![Deploy na Vercel](https://vercel.com/button)](https://react-spotify-arthurmarson.vercel.app/)
+[![Deploy na Vercel](https://vercel.com/button)](https://react-spotify-ashen.vercel.app)
 
 Um clone da interface do Spotify desenvolvido em React, integrado à uma API com dados de artistas para uma pesquisa interativa.
 
